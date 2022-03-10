@@ -5,3 +5,21 @@ Remote Key Entry is an electronic lock that controls access to a building or veh
 #
 ### SWOT Analysis
 ![Simple-Matrix-SWOT-Template_Nov2020](https://user-images.githubusercontent.com/98829237/157732602-74318b52-e360-4451-a536-ddfc67f7e57e.jpg)
+
+# Requirements
+
+##  High Level Requirements
+ 
+|ID| Description|
+|----|----|
+|HLR1||
+|HLR2||
+|HLR3||
+
+## Low Level Requirements
+
+|ID| Description|
+|----|----|
+|LLR1||
+|LLR2||
+|LLR3||
