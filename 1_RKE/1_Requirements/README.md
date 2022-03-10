@@ -37,6 +37,21 @@ Remote Key Entry is an electronic lock that controls access to a building or veh
 
 |ID| Description|
 |----|----|
-|LLR1||
-|LLR2||
-|LLR3||
+|LLR1.1|All LED's are ON at the same time|
+|LLR1.2||
+
+|ID| Description|
+|----|----|
+|LLR1.1|All LED's are OFF at the same time|
+|LLR1.2||
+
+|ID| Description|
+|----|----|
+|LLR3.1|All LED's are ON in Clockwise-direction|
+|LLR3.2||
+
+|ID| Description|
+|----|----|
+|LLR4.1|All LED's are ON in Anti-Clockwise-direction|
+|LLR4.2||
+
