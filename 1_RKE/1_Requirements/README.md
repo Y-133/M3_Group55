@@ -12,15 +12,15 @@ Remote Key Entry is an electronic lock that controls access to a building or veh
 
 ##  4W's & 1H
 1) what ?
-  * 
+  * Wireless key for the smart cars.
 2) who ?
-  * 
+  * The people who wants to control their car wirelessely.
 3) when ?
-  *  
+  *  User want to locking and unlocking, alarm function activation.
 4) where ?
-  * 
+  * Outside/Inside and near the car or at a frequent range.
 5) how ?
-
+  * By pressing the blue button in the remotr key.
 ----------------------
 
 # Requirements
@@ -29,10 +29,10 @@ Remote Key Entry is an electronic lock that controls access to a building or veh
  
 |ID| Description|
 |----|----|
-|HLR1||
-|HLR2||
-|HLR3||
-
+|HLR1|It should be lock when the blue switch press one time|
+|HLR2|It should be unlock when the blue switch press two times|
+|HLR3|It should be alaram activation/decactivation when the blue switch press two three|
+|HLR4|It should be approach when the blue switch press two four|
 ## Low Level Requirements
 
 |ID| Description|
