@@ -29,10 +29,10 @@ Remote Key Entry is an electronic lock that controls access to a building or veh
  
 |ID| Description|
 |----|----|
-|HLR1|It should be lock when the blue switch press one time|
-|HLR2|It should be unlock when the blue switch press two times|
-|HLR3|It should be alaram activation/decactivation when the blue switch press two three|
-|HLR4|It should be approach when the blue switch press two four|
+|HLR1|It shall be lock when the blue switch press one time|
+|HLR2|It shall be unlock when the blue switch press two times|
+|HLR3|It shall be alaram activation/decactivation when the blue switch press two three|
+|HLR4|It shall be approach when the blue switch press two four|
 
 ## Low Level Requirements
 
