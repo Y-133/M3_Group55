@@ -33,25 +33,14 @@ Remote Key Entry is an electronic lock that controls access to a building or veh
 |HLR2|It should be unlock when the blue switch press two times|
 |HLR3|It should be alaram activation/decactivation when the blue switch press two three|
 |HLR4|It should be approach when the blue switch press two four|
+
 ## Low Level Requirements
 
 |ID| Description|
 |----|----|
-|LLR1.1|All LED's are ON at the same time|
-|LLR1.2||
+|HLR1_LLR1|All LED's are ON at the same time|
+|HLR2_LLR2|All LED's are OFF at the same time|
+|HLR3_LLR3|All LED's are ON in Clockwise-direction|
+|HLR4_LLR4|All LED's are ON in Anti-Clockwise-direction|
 
-|ID| Description|
-|----|----|
-|LLR1.1|All LED's are OFF at the same time|
-|LLR1.2||
-
-|ID| Description|
-|----|----|
-|LLR3.1|All LED's are ON in Clockwise-direction|
-|LLR3.2||
-
-|ID| Description|
-|----|----|
-|LLR4.1|All LED's are ON in Anti-Clockwise-direction|
-|LLR4.2||
 
