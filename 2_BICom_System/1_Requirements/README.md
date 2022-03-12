@@ -1,12 +1,22 @@
-## Introduction
+# Table of content :
+1. Product research 
+2. Features
+   * Problem solving approach:
+3. 4W 1H
+4. SWOT analysis  
+5. Materials req (STM327407)
+6. Requirements:
+	  * HLR
+  	* LLR
+--------------------------
+<h1 align="center"> RKE </h1>
+<i><h3 align = "center"> BiCom </h3></i>
+<h3 align = "center"> BiCom System designed to remotely lock or unlock to access some features of.  </h3>
 
+## Introduction
   * Bi-com system ,is a system that's designed to remotely lock or unlock the automobiles, RKE operates by broadcasting radio waves on a selected frequency unidirectionally,RKE      systems implement encryption algorithms to stop car thieves from intercepting and spoofing the telegram.
   * The term bi-com, is additionally called keyless entry or remote central locking, refers to a lock that uses an electronic remote as a key which is activated by a handheld       device or automatically by proximity.
   * Widely employed in automobiles, an RKS performs the functions of a regular car key without physical contact. When within some yards of the car, pressing a button on the         remote can lock or unlock the doors, and should perform other functions.
-
-
-
-
 
 ## FEATURES #
 
@@ -17,24 +27,14 @@ The project is all about programming the Biocom to impliment its below mentioned
 2. The term bi-com, is also called keyless entry or remote central locking, refers to a lock that uses an electronic remote control as a key which is activated by a handheld         device or automatically by proximity.
 3. Widely used in automobiles, an RKS performs the functions of a standard car key without physical contact. When within a few yards of the car, pressing a button on the remote    can lock or unlock the doors, and may perform other functions.
 
-| Input command              |                       Output                                                   |
-| ---------------------------| -------------------------------------------------------------------------------|
-| Blue switch pressed once   |  1. All led on at the same time. <br> 2.  Print windows status.              |
-| Blue switch pressed twice  | 1. All led off at the same time. <br> 2.  Print alram status.              |
-| Blue switch pressed thrice |  1. All led on in clockwise manner <br> 2. Print car battery info status |
-| Blue switch pressed for four times | 1. All led on in anti-clockwise manner <br> 2. Print Door status   |
+| Input command              |                       Output                                                    |
+| ---------------------------| ------------------------------------------------------------------------------- |
+| Blue switch pressed once   |  1. All led on at the same time. <br> 2.  Print windows status.                 |
+| Blue switch pressed twice  | 1. All led off at the same time. <br> 2.  Print alram status.                   |
+| Blue switch pressed thrice |  1. All led on in clockwise manner <br> 2. Print car battery info status        |
+| Blue switch pressed for four times | 1. All led on in anti-clockwise manner <br> 2. Print Door status        |
 
 --------------------------------------
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -72,9 +72,6 @@ HLR_4   |It should able to check Door status.
 | | LLR_4.4 | If count is equal to four, Turn on all LED counter clock wise for5 seconds| 
 
 ------------------------------
-
-
-
 
 ##  4W's & 1H
 | Sl.No | Questions | Description | 
