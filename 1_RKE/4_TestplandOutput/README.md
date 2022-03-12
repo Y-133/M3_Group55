@@ -1,4 +1,4 @@
-Test cases for High level Requirements
+## Test cases for High level Requirements
 
 | HLR_Test ID | Description | Input | Expected output | Actual Output | Passed Or Not |
 | --- | --- | --- | --- | --- | --- |
@@ -8,7 +8,8 @@ Test cases for High level Requirements
 | 04 | All the LEDs should turn ON anti-clockwise | press the button thirce| Turn ON all the LEDs anti-clockwise | Turn ON all the LEDs clockwise| ✅ |
 -----------------------------------------------------------------------
 <br>
-Test cases for low  level requirements
+
+## Test cases for low  level requirements
 
 | Test ID | Description | Input | Expected output | Actual Output | Passed Or Not |
 | --- | --- | --- | --- | --- | --- |
