@@ -12,8 +12,8 @@ Module -3 Getting started with ARM Based Microcontroller
 | ---------------- | :------: | ------------------------------------------------ | ---------------------------- | ---------------- | ----------------------------------- |
 | Shrivaishnavi    | 99007457 |1. Features <br> 2. Problem solving approach      | Test cases                   | Manikanta Gurram | Yogesh S.V <br> Danesh Patted	     | 
 | Manikanta Gurram | 99007896 |1. HLD <br> 2. LLD                                | Test cases                   | Shrivaishnavi    | Yogesh S.V <br> Danesh Patted	     |
-| Danesh Patted	   | 99007458 |1. Introduction<br>2. Product research            | SWOT analysis <br>Product research | Yogesh S.V       | Shrivaishnavi <br> Manikanta Gurram | 
-| Yogesh S.V       | 99007456 |1. HLR <br> 2. LLR                                | 4w1h <br> Materials required | Danesh Patted	   | Shrivaishnavi  <br> Manikanta Gurram|
+| Danesh Patted	   | 99007458 |1. Introduction<br>2. Product research            | SWOT analysis                | Yogesh S.V       | Shrivaishnavi <br> Manikanta Gurram | 
+| Yogesh S.V       | 99007456 |1. HLR <br> 2. LLR                                | 4w1h <br> Materials required <br>Product research | Danesh Patted	   | Shrivaishnavi  <br> Manikanta Gurram|
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Software
