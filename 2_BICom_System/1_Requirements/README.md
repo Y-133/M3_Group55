@@ -9,8 +9,7 @@
 	  * HLR
   	* LLR
 --------------------------
-<h1 align="center"> RKE </h1>
-<i><h3 align = "center"> BiCom </h3></i>
+<h1 align="center"> BiCom </h1>
 <h3 align = "center"> BiCom System designed to remotely lock or unlock to access some features of.  </h3>
 
 ## Introduction
