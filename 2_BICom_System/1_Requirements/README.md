@@ -1,12 +1,12 @@
 # Table of content :
 1.Introduction 
 * Product research 
-3. Features
+2. Features
 * Problem solving approach:
-4. 4W 1H
-5. SWOT analysis  
-6. Materials req (STM327407)
-7. Requirements:
+3. 4W 1H
+4. SWOT analysis  
+5. Materials req (STM327407)
+6. Requirements:
 * HLR
 * LLR
 --------------------------
@@ -29,7 +29,7 @@ In this project we will use STM32F407 to emulate these functionalities.
 </p>
 
 --------------------------------------
-## FEATURES
+## 2. FEATURES
 The project is all about programming the Biocom to impliment its below mentioned functions. The features implimneted differs or a part of the real time biocom system. 
 1. Biocom transmission requires two components - a transmitter and a receiver. Communication takes place in bi-direction. 
 * Transmitter - The info transmitted to the keyfob,
@@ -47,12 +47,12 @@ The project is all about programming the Biocom to impliment its below mentioned
 | Blue switch pressed for four times | 1. All led on in anti-clockwise manner <br> 2. Print Door status        |
 
 --------------------------------------
-### PROBLEM SOLVING APPROACH
+### 2.1 PROBLEM SOLVING APPROACH
 The main function used to check the condition. The button pin is pulled up and the pin is monitored continuosly for change using the STM32F407 controller. When the switch press event is identified the countis incremented and coressponding function is done.
 
 --------------------------------------
 
-##  4W's & 1H
+## 3. 4W's & 1H
 | Sl.No | Questions | Description | 
 | :-----: | :-----: | ----- |
 | 1. | What | Wireless key for the smart cars. In this project we will impliment RKE functionalities as said above. |
@@ -62,11 +62,11 @@ The main function used to check the condition. The button pin is pulled up and t
 | 5. | How |By pressing the button in the remote key. Here we will use blue button on the STM32F407 to emulate these functionalities. |
 
 --------------------------------------
-## SWOT Analysis
+## 4. SWOT Analysis
 ![Simple-Matrix-SWOT-Template_Nov2020](https://user-images.githubusercontent.com/98829237/157732602-74318b52-e360-4451-a536-ddfc67f7e57e.jpg)
 
 ----------------------
-## MATERIALS REQUIRED 
+## 5. MATERIALS REQUIRED 
 
  STM32F407 is only board required for this project. Its technical speficication is given below.
  | Sl. No |  Title | Description |
@@ -81,9 +81,9 @@ The main function used to check the condition. The button pin is pulled up and t
 | 8. | Communication interfaces | 1. Up to three I2C interfaces (SMBus/PMBus) are available. <br> 2. Up to four USARTs and two UARTs (10.5 Mbit/s, ISO 7816 interface, LIN, IrDA, and modem control) are available. <br> 3. To achieve audio class precision via internal audio PLL or external clock, there are up to three SPIs (42 Mbits/s), two of which are muxed full-duplex I2S. <br> 4. 2 CAN (Controller Area Network) interfaces (2.0B Active) <br>5. SDIO (Serial Digital Interface)  |   
 | 9. |Advanced interconnection | 1. Full-speed USB 2.0 device, host, and OTG controller with on-chip PHY <br> 2. High-speed/full-speed USB 2.0 device/host/OTG controller with dedicated DMA, full-speed PHY on-chip, and ULPI <br> 3. Supports IEEE 1588v2 hardware, MII/RMII, and 10/100 Ethernet MAC with dedicated DMA. <br> |
 -----------------------------------
-## Requirements
+## 6. Requirements
 
-## 1. HIGH LEVEL REQUIREMENTS
+## 6.1 HIGH LEVEL REQUIREMENTS
 HLR     | DESCRIPTION
 --------|-----------------------
 HLR_1   |It should able to check the window status.
@@ -91,7 +91,7 @@ HLR_2   |It should able to check the alram status.
 HLR_3   |It should able to check car battery info status.
 HLR_4   |It should able to check Door status.
 
-## 2. LOW LEVEL REQUIREMENTS:- ##
+## 6.2 LOW LEVEL REQUIREMENTS:- ##
 | HLR_ID |LLR_ID | Design_consideration | 
 | :-----: | :-----: | -------------------- | 
 | HLR_1 | LLR_1.1 | Controller checks for any change in the pin state connected to the button continuously |
