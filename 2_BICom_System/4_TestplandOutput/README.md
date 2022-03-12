@@ -26,3 +26,5 @@
 | 02 | Button count | Press the button twice | 2  and print unlocked| 2 and print unlocked| ✅ |
 | 03 | Button Count | Press the button thrice | 3 and print alaram ON| 3 and print alaram ON| ✅ |
 | 04 | Button Count | Press the button four times | 4 and print alaram OFF| 4 nd print alaram OFF| ✅ |
+#
+https://user-images.githubusercontent.com/98829237/158008189-6db846b5-c7e1-43e8-ae21-864797f6a15b.mp4

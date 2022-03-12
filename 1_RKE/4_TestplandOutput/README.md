@@ -23,3 +23,6 @@ Test cases for low  level requirements
 | 4.1 | Check the pin state of the button | -  | Get the button state | Get the button state | ✅ |
 | 4.2 | Increment the count based on number of times the button is pressed | press the button| increment the button count| increment the button count | ✅ |
 | 4.3 | Check for the condition to be equal to 1/2/3/4| press the button four times| All Leds turned on anti-clockwise| All LEDs turned on anti-clockwise|✅ |
+#
+#
+https://user-images.githubusercontent.com/98829237/158008189-6db846b5-c7e1-43e8-ae21-864797f6a15b.mp4
