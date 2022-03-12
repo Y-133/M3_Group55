@@ -29,7 +29,7 @@ In this project we will use STM32F407 to emulate these functionalities.
 </p>
 
 --------------------------------------
-## 2. FEATURES
+## 2.FEATURES
 The project is all about programming the Biocom to impliment its below mentioned functions. The features implimneted differs or a part of the real time biocom system. 
 1. Biocom transmission requires two components - a transmitter and a receiver. Communication takes place in bi-direction. 
 * Transmitter - The info transmitted to the keyfob,
