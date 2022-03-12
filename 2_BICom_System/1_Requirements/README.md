@@ -1,3 +1,34 @@
+## FEATURES #
+
+The project is all about programming the Biocom to impliment its below mentioned functions. The features implimneted differs or a part of the real time biocom system. 
+1. Biocom transmission requires two components - a transmitter and a receiver. Communication takes place in bi-direction. 
+* Transmitter - RKE key fob, other ID device with RKE integrated 
+* Receiver - Body Control ECU, other ECU with integrated RKE 
+2. RKE operates by broadcasting radio waves on a particular frequency unidirectionally. 
+3. RKE systems implement encryption and rolling code algorithms are used to prevent car from being intercepted and spoofed. 
+4. RKE functions implimented are: <br>
+
+| Input command              |                       Output                                                   |
+| ---------------------------| -------------------------------------------------------------------------------|
+| Blue switch pressed once   |  1. All led on at the same time. <br> 2.  Print windows status.              |
+| Blue switch pressed twice  | 1. All led off at the same time. <br> 2.  Print alram status.              |
+| Blue switch pressed thrice |  1. All led on in clockwise manner <br> 2. Print car battery info status |
+| Blue switch pressed for four times | 1. All led on in anti-clockwise manner <br> 2. Print Door status   |
+
+--------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
 #  4W's & 1H
 
 1) what ?
@@ -17,10 +48,10 @@
 ## HIGH LEVEL REQUIREMENTS
 HLR     | DESCRIPTION
 --------|-----------------------
-HLR_1   |It should able to lock the window.
-HLR_2   |It should able to unlock the window.
-HLR_3   |It should able to ring alarm when pressed three.
-HLR_4   |It should able to stop alarm when pressed four times.
+HLR_1   |It should able to check the window status.
+HLR_2   |It should able to check the alram status.
+HLR_3   |It should able to check car battery info status.
+HLR_4   |It should able to check Door status.
 
 ## LOW LEVEL REQUIREMENTS
 LLR     | DESCRIPTION
