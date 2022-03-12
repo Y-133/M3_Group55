@@ -12,7 +12,7 @@
 --------------------------
 <h1 align="center"> RKE </h1>
 <i><h3 align = "center"> Remote Keyless Entry</h3></i>
-<h3 align = "center"> Remote keyless entry (RKE) system is a system designed to remotely lock or unlock access to automobiles.  </h3>
+<h3 align = "center"> Remote keyless entry (RKE) system is a system designed to remotely lock or unlock or to access some features of automobiles.  </h3>
 
 -------------------------------------------------------
 # Introduction
