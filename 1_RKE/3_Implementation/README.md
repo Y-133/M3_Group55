@@ -1,9 +1,8 @@
 # M3_Group55
 Module -3 Getting started with ARM Based Microcontroller
 ----------------------------------------------------
-<h1 align="center"> RKE </h1>
-<i><h3 align = "center"> Remote Keyless Entry</h3></i>
-<h3 align = "center"> Remote keyless entry (RKE) system is a system designed to remotely lock or unlock access to automobiles.  </h3>
+<h1 align="center"> Remote Keyless Entry </h1>
+<h3 align = "center"> Remote keyless entry (RKE) system is a system designed to remotely lock or unlock and to access other function of the automobiles.  </h3>
 
 ## FOLDER STURCUTURE: ##
 
