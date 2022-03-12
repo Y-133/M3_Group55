@@ -91,18 +91,22 @@ The main function used to check the condition. The button pin is pulled up and t
 | | LLR_1.2 | If state change to '1' increment count |  
 | | LLR_1.3 | Check count condition| 
 | | LLR_1.4 | If count is equal to one, Turn on all LED at the same time for 5 seconds| 
+| | LLR_1.5 | Message printed as Locked | 
 | HLR_2 | LLR_2.1 | Controller checks for any change in the pin state connected to the button continuously|
 | | LLR_2.2 | If any change increment count | 
 | | LLR_2.3 | Check count condition| 
 | | LLR_2.4 | If count is equal to two, Turn off all LED at the same time for 5seconds |
+| | LLR_2.5 | Message printed as unlocked| 
 | HLR_3 | LLR_3.1 | Controller checks for any change in the pin state connected to the button continuously |
 | | LLR_3.2 | If any change increment count |  
 | | LLR_3.3 | Check count condition| 
 | | LLR_3.4 | If count is equal to three, Turn on all LED clock wise for 5 seconds| 
+| | LLR_3.5 | Message printed as alarm activation/deactivation| 
 | HLR_4 | LLR_4.1 | Controller checks for any change in the pin state connected to the button continuously|
 | | LLR_4.2 | If any change increment count |  
 | | LLR_4.3 | Check count condition| 
 | | LLR_4.4 | If count is equal to four, Turn on all LED counter clock wise for5 seconds| 
+| | LLR_4.5 |  Message printed as  approach light| 
 
 
 
