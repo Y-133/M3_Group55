@@ -1,14 +1,15 @@
-# Table of content :
+# Table of content : #
+
 1.Introduction 
-* Product research 
+    * Product research 
 2. Features
-* Problem solving approach:
+    * Problem solving approach:
 3. 4W 1H
 4. SWOT analysis  
 5. Materials req (STM327407)
 6. Requirements:
-* HLR
-* LLR
+    * HLR
+    * LLR
 --------------------------
 <h1 align="center"> BiCom </h1>
 <h3 align = "center"> BiCom System designed to remotely lock or unlock to access some features of.  </h3>
