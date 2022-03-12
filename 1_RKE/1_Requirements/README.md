@@ -47,12 +47,12 @@ The project is all about programming the RKE to impliment its below mentioned fu
 -------------------------------------------------------------------------------------------------------------------
 ##  4W's & 1H
 | Sl.No | Questions | Description | 
-| ----- | ----- | ----- |
+| :-----: | :-----: | ----- |
 | 1. | What | Wireless key for the smart cars. In this project we will impliment RKE functionalities as said above. |
-| 2. | Any car user who wants to control the car function from a certain range. | 
-| 3. | User wants to lock or unlock or when using other functions. |
-| 4. | The features can be accessed using the remote key from inside or from certain range. | 
-| 5. | By pressing the button in the remote key. Here we will use blue button on the STM32F407 to emulate these functionalities. |
+| 2. | Who |Any car user who wants to control the car function from a certain range. | 
+| 3. | When |User wants to lock or unlock or when using other functions. |
+| 4. | Where |The features can be accessed using the remote key from inside or from certain range. | 
+| 5. | How |By pressing the button in the remote key. Here we will use blue button on the STM32F407 to emulate these functionalities. |
 #
 #
 # SWOT Analysis
@@ -86,22 +86,22 @@ The project is all about programming the RKE to impliment its below mentioned fu
 ## LOW LEVEL REQUIREMENTS:- ##
 | HLR_ID |LLR_ID | Design_consideration | 
 | :-----: | :-----: | -------------------- | 
-| HLR_1 | LLR_1.1 | Controller checks for any change in the pin state connected to the button continuously---------------------(is button connected to any pin ?? what is pin no)
-| | LLR_1.2 | If any change increment count |  (condition to increment how to detect the no of times button pressed)
+| HLR_1 | LLR_1.1 | Controller checks for any change in the pin state connected to the button continuously |
+| | LLR_1.2 | If state change to '1' increment count |  
 | | LLR_1.3 | Check count condition| 
-| | LLR_1.4 | If count is equal to one, Turn on all LED at the same time for -----------------------seconds| (duration )
-| HLR_2 | LLR_2.1 | Controller checks for any change in the pin state connected to the button continuously---------------------(is button connected to any pin ?? what is pin no)
-| | LLR_2.2 | If any change increment count |  (condition to increment how to detect the no of times button pressed)
+| | LLR_1.4 | If count is equal to one, Turn on all LED at the same time for 5 seconds| 
+| HLR_2 | LLR_2.1 | Controller checks for any change in the pin state connected to the button continuously|
+| | LLR_2.2 | If any change increment count | 
 | | LLR_2.3 | Check count condition| 
-| | LLR_2.4 | If count is equal to two, Turn off all LED at the same time for -----------------------seconds| (duration )
-| HLR_3 | LLR_3.1 | Controller checks for any change in the pin state connected to the button continuously---------------------(is button connected to any pin ?? what is pin no)
-| | LLR_3.2 | If any change increment count |  (condition to increment how to detect the no of times button pressed)
+| | LLR_2.4 | If count is equal to two, Turn off all LED at the same time for 5seconds |
+| HLR_3 | LLR_3.1 | Controller checks for any change in the pin state connected to the button continuously |
+| | LLR_3.2 | If any change increment count |  
 | | LLR_3.3 | Check count condition| 
-| | LLR_3.4 | If count is equal to three, Turn on all LED clock wise for -----------------------seconds| (duration )
-| HLR_4 | LLR_4.1 | Controller checks for any change in the pin state connected to the button continuously---------------------(is button connected to any pin ?? what is pin no)
-| | LLR_4.2 | If any change increment count |  (condition to increment how to detect the no of times button pressed)
+| | LLR_3.4 | If count is equal to three, Turn on all LED clock wise for 5 seconds| 
+| HLR_4 | LLR_4.1 | Controller checks for any change in the pin state connected to the button continuously|
+| | LLR_4.2 | If any change increment count |  
 | | LLR_4.3 | Check count condition| 
-| | LLR_4.4 | If count is equal to four, Turn on all LED counter clock wise for -----------------------seconds| (duration )
+| | LLR_4.4 | If count is equal to four, Turn on all LED counter clock wise for5 seconds| 
 
 
 
