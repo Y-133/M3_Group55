@@ -14,18 +14,17 @@
 <i><h3 align = "center"> Remote Keyless Entry</h3></i>
 <h3 align = "center"> Remote keyless entry (RKE) system is a system designed to remotely lock or unlock or to access some features of automobiles.  </h3>
 
--------------------------------------------------------
-# Introduction
-Remote Key Entry is an electronic lock that controls access to a building or vehicle without using a conventional mechanical key. The term Remote Key entry system literally means controlled some functionality of car by a remote such as lock, unlock, alarm activation and approch light at or near the car, which requires entering a default (or self-programmed) numeric code. RKE transmission requires two components - a transmitter and a receiver. Transmitter - RKE key fob, other ID device with RKE integrated Receiver - Body Control ECU, other ECU with integrated RKE. RKE operates by broadcasting radio waves on a particular frequency unidirectionally. RKE systems implement encryption and rolling code algorithms to prevent car thieves from intercepting and spoofing the telegrams. 
--------------------------------------------------------------------
+# Introduction #
+<p align = "justify"> Remote Key Entry is an electronic lock that controls access to a building or vehicle without using a conventional mechanical key. The term Remote Key entry system literally means controlled some functionality of car by a remote such as lock, unlock, alarm activation and approch light at or near the car, which requires entering a default (or self-programmed) numeric code. RKE transmission requires two components - a transmitter and a receiver. Transmitter - RKE key fob, other ID device with RKE integrated Receiver - Body Control ECU, other ECU with integrated RKE. RKE operates by broadcasting radio waves on a particular frequency unidirectionally. RKE systems implement encryption and rolling code algorithms to prevent car thieves from intercepting and spoofing the telegrams.   </p>
+
 ## PRODUCT RESEARCH
 <p align="center">
   <img width="1080 "height="342 " src="https://github.com/shri-vaishnavi/M3_Group55/blob/main/1_RKE/Images/RSK.png ">
 </p>
 <br>
-<h5><j>The Remote Keyless System refers to a lock that uses an electronic remote control to access functions such as lock, unlock, alarm activation etc. Keyless remotes contain a short-range radio transmitter, and works within a certain range of the car to work. Remote Keyless System has a transmitter and a receiver to communicate. Receiver is the Body Control ECU, another ECU with integrated RKE Transmitter in the target vehicle. RKE Transmitter is incorporated with RKE key fob and other ID device which works by sending radio waves in a single direction on a certain frequency.When a button is pushed, it sends a coded signal by radio waves to a receiver unit in the car, which performs the functions accordingly. The functions of a remote keyless entry system are contained on a key fob. The RKE systems use encryption and rolling code techniques to prevent intercepting of command signals from the key. The rolling code is a pseudo random number generator generated differently for each time. Here we have discussed RKE system implimented in the car.
+<p align = "justify"> The Remote Keyless System refers to a lock that uses an electronic remote control to access functions such as lock, unlock, alarm activation etc. Keyless remotes contain a short-range radio transmitter, and works within a certain range of the car to work. Remote Keyless System has a transmitter and a receiver to communicate. Receiver is the Body Control ECU, another ECU with integrated RKE Transmitter in the target vehicle. RKE Transmitter is incorporated with RKE key fob and other ID device which works by sending radio waves in a single direction on a certain frequency.When a button is pushed, it sends a coded signal by radio waves to a receiver unit in the car, which performs the functions accordingly. The functions of a remote keyless entry system are contained on a key fob. The RKE systems use encryption and rolling code techniques to prevent intercepting of command signals from the key. The rolling code is a pseudo random number generator generated differently for each time. Here we have discussed RKE system implimented in the car.
 In this project we will use STM32F407 to emulate these functionalities. 
-</j></h5>
+</p>
 
 ## FEATURES #
 The project is all about programming the RKE to impliment its below mentioned functions. The features implimneted differs or a part of the real time RKE system. 
