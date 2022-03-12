@@ -24,7 +24,7 @@
 <p align = "justify"> The Remote Keyless System refers to a lock that uses an electronic remote control to access functions such as lock, unlock, alarm activation etc. Keyless remotes contain a short-range radio transmitter, and works within a certain range of the car to work. Remote Keyless System has a transmitter and a receiver to communicate. Receiver is the Body Control ECU, another ECU with integrated RKE Transmitter in the target vehicle. RKE Transmitter is incorporated with RKE key fob and other ID device which works by sending radio waves in a single direction on a certain frequency.When a button is pushed, it sends a coded signal by radio waves to a receiver unit in the car, which performs the functions accordingly. The functions of a remote keyless entry system are contained on a key fob. The RKE systems use encryption and rolling code techniques to prevent intercepting of command signals from the key. The rolling code is a pseudo random number generator generated differently for each time. Here we have discussed RKE system implimented in the car.
 In this project we will use STM32F407 to emulate these functionalities. 
 </p>
-## FEATURES #
+## FEATURES
 
 The project is all about programming the Biocom to impliment its below mentioned functions. The features implimneted differs or a part of the real time biocom system. 
 1. Biocom transmission requires two components - a transmitter and a receiver. Communication takes place in bi-direction. 
