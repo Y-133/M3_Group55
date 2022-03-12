@@ -1,6 +1,5 @@
-# Table of content : #
-
-1.Introduction 
+# Table of content : 
+1. Introduction 
     * Product research 
 2. Features
     * Problem solving approach:
