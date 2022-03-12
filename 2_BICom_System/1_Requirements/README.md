@@ -14,20 +14,18 @@
 
 # Requirements
 
-##  High Level Requirements
- 
-|ID| Description|
-|----|----|
-|HLR1|It shall be display window status when the blue switch press one time|
-|HLR2|It shall be  display alarm status when the blue switch press two times|
-|HLR3|It shall be display car battery info status when the blue switch press  three|
-|HLR4|It shall be  display door status  when the blue switch press two four|
+## HIGH LEVEL REQUIREMENTS
+HLR     | DESCRIPTION
+--------|-----------------------
+HLR_1   |It should able to lock the window.
+HLR_2   |It should able to unlock the window.
+HLR_3   |It should able to ring alarm when pressed three.
+HLR_4   |It should able to stop alarm when pressed four times.
 
-## Low Level Requirements
-
-|ID| Description|
-|----|----|
-|HLR1_LLR1|All LED's are ON at the same time|
-|HLR2_LLR2|All LED's are OFF at the same time|
-|HLR3_LLR3|All LED's are ON in Clockwise-direction|
-|HLR4_LLR4|All LED's are ON in Anti-Clockwise-direction|
+## LOW LEVEL REQUIREMENTS
+LLR     | DESCRIPTION
+--------|-----------------------
+LLR_1   |It should display the status of lock the device.
+LLR_2   |It should display the status of unlock the device.
+LLR_3   |It should display the alarm ON status.
+LLR_4   |It should display the alarm OFF status.

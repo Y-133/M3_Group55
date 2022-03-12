@@ -20,7 +20,7 @@ Remote Key Entry is an electronic lock that controls access to a building or veh
 4) where ?
   * Outside/Inside and near the car or at a frequent range.
 5) how ?
-  * By pressing the blue button in the remotr key.
+  * By pressing the blue button in the remote key.
 ----------------------
 
 # Requirements
@@ -31,7 +31,7 @@ Remote Key Entry is an electronic lock that controls access to a building or veh
 |----|----|
 |HLR1|It shall be lock when the blue switch press one time|
 |HLR2|It shall be unlock when the blue switch press two times|
-|HLR3|It shall be alaram activation/decactivation when the blue switch press two three|
+|HLR3|It shall be activation/decactivation when the blue switch press two three|
 |HLR4|It shall be approach when the blue switch press two four|
 
 ## Low Level Requirements
