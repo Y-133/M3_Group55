@@ -2,11 +2,10 @@
 
 The project is all about programming the Biocom to impliment its below mentioned functions. The features implimneted differs or a part of the real time biocom system. 
 1. Biocom transmission requires two components - a transmitter and a receiver. Communication takes place in bi-direction. 
-* Transmitter - RKE key fob, other ID device with RKE integrated 
-* Receiver - Body Control ECU, other ECU with integrated RKE 
-2. RKE operates by broadcasting radio waves on a particular frequency unidirectionally. 
-3. RKE systems implement encryption and rolling code algorithms are used to prevent car from being intercepted and spoofed. 
-4. RKE functions implimented are: <br>
+* Transmitter - The info transmitted to the keyfob,
+* Receiver - Body Control ECU, other ECU with integrated biocom system,send back to the keyfob to display the status.  
+2. The term bi-com, is also called keyless entry or remote central locking, refers to a lock that uses an electronic remote control as a key which is activated by a handheld         device or automatically by proximity.
+3. Widely used in automobiles, an RKS performs the functions of a standard car key without physical contact. When within a few yards of the car, pressing a button on the remote    can lock or unlock the doors, and may perform other functions.
 
 | Input command              |                       Output                                                   |
 | ---------------------------| -------------------------------------------------------------------------------|
