@@ -62,7 +62,8 @@ The project is all about programming the Biocom to impliment its below mentioned
 ----------------------
 
 # MATERIALS REQUIRED 
- 
+
+ STM32F407 is only board required for this project. Its technical speficication is given below.
  | Sl. No |  Title | Description |
  | ------- | ------- | -----------|
  | 1. | Power supply | 1.8 V - 3.6 V |
