@@ -1,23 +1,25 @@
 # Table of content :
-1. Product research 
+1.Introduction 
+* Product research 
 2. Features
-   * Problem solving approach:
+* Problem solving approach:
 3. 4W 1H
 4. SWOT analysis  
 5. Materials req (STM327407)
 6. Requirements:
-	  * HLR
-  	* LLR
+* HLR
+* LLR
 
 --------------------------
 <h1 align="center"> RKE </h1>
 <i><h3 align = "center"> Remote Keyless Entry</h3></i>
 <h3 align = "center"> Remote keyless entry (RKE) system is a system designed to remotely lock or unlock or to access some features of automobiles.  </h3>
 
-# Introduction #
+## 1. Introduction #
 <p align = "justify"> Remote Key Entry is an electronic lock that controls access to a building or vehicle without using a conventional mechanical key. The term Remote Key entry system literally means controlled some functionality of car by a remote such as lock, unlock, alarm activation and approch light at or near the car, which requires entering a default (or self-programmed) numeric code. RKE transmission requires two components - a transmitter and a receiver. Transmitter - RKE key fob, other ID device with RKE integrated Receiver - Body Control ECU, other ECU with integrated RKE. RKE operates by broadcasting radio waves on a particular frequency unidirectionally. RKE systems implement encryption and rolling code algorithms to prevent car thieves from intercepting and spoofing the telegrams.   </p>
 
-## PRODUCT RESEARCH
+-------------------------------------------------------
+## 1.1 PRODUCT RESEARCH
 <p align="center">
   <img width="1080 "height="342 " src="https://github.com/shri-vaishnavi/M3_Group55/blob/main/1_RKE/Images/RSK.png ">
 </p>
@@ -26,7 +28,8 @@
 In this project we will use STM32F407 to emulate these functionalities. 
 </p>
 
-## FEATURES #
+-------------------------------------------------------
+## 2. FEATURES #
 The project is all about programming the RKE to impliment its below mentioned functions. The features implimneted differs or a part of the real time RKE system. 
 1. RKE transmission requires two components - a transmitter and a receiver. Communication takes place in uni-direction. 
 * Transmitter - RKE key fob, other ID device with RKE integrated 
@@ -35,6 +38,7 @@ The project is all about programming the RKE to impliment its below mentioned fu
 3. RKE systems implement encryption and rolling code algorithms are used to prevent car from being intercepted and spoofed. 
 4. RKE functions implimented are: <br>
 
+-------------------------------------------------------
 | Input command              |                       Output                                                   |
 | ---------------------------| -------------------------------------------------------------------------------|
 | Blue switch pressed once   |  1. All led on at the same time. <br> 2.  Print lock.                          |
@@ -42,11 +46,11 @@ The project is all about programming the RKE to impliment its below mentioned fu
 | Blue switch pressed thrice |  1. All led on in clockwise manner <br> 2. Print alarm activation/deactivation |
 | Blue switch pressed for four times | 1. All led on in anti-clockwise manner <br> 2. Print approach light   |
 
-# PROBLEM SOLVING APPROACH
+## 2.2 PROBLEM SOLVING APPROACH
 The main function used to check the condition. The button pin is pulled up and the pin is monitored continuosly for change using the STM32F407 controller. When the switch press event is identified the countis incremented and coressponding function is done.
 	
 -------------------------------------------------------------------------------------------------------------------
-##  4W's & 1H
+##  3. 4W's & 1H
 | Sl.No | Questions | Description | 
 | :-----: | :-----: | ----- |
 | 1. | What | Wireless key for the smart cars. In this project we will impliment RKE functionalities as said above. |
@@ -54,13 +58,12 @@ The main function used to check the condition. The button pin is pulled up and t
 | 3. | When |User wants to lock or unlock or when using other functions. |
 | 4. | Where |The features can be accessed using the remote key from inside or from certain range. | 
 | 5. | How |By pressing the button in the remote key. Here we will use blue button on the STM32F407 to emulate these functionalities. |
-#
-#
-# SWOT Analysis
+-------------------------------------------------------
+## 4. SWOT Analysis
 ![Simple-Matrix-SWOT-Template_Nov2020](https://user-images.githubusercontent.com/98829237/157732602-74318b52-e360-4451-a536-ddfc67f7e57e.jpg)
 ----------------------
 
-# MATERIALS REQUIRED 
+## 5. MATERIALS REQUIRED 
  
  | Sl. No |  Title | Description |
  | ------- | ------- | -----------|
@@ -74,8 +77,8 @@ The main function used to check the condition. The button pin is pulled up and t
 | 8. | Communication interfaces | 1. Up to three I2C interfaces (SMBus/PMBus) are available. <br> 2. Up to four USARTs and two UARTs (10.5 Mbit/s, ISO 7816 interface, LIN, IrDA, and modem control) are available. <br> 3. To achieve audio class precision via internal audio PLL or external clock, there are up to three SPIs (42 Mbits/s), two of which are muxed full-duplex I2S. <br> 4. 2 CAN (Controller Area Network) interfaces (2.0B Active) <br>5. SDIO (Serial Digital Interface)  |   
 | 9. |Advanced interconnection | 1. Full-speed USB 2.0 device, host, and OTG controller with on-chip PHY <br> 2. High-speed/full-speed USB 2.0 device/host/OTG controller with dedicated DMA, full-speed PHY on-chip, and ULPI <br> 3. Supports IEEE 1588v2 hardware, MII/RMII, and 10/100 Ethernet MAC with dedicated DMA. <br> |
 -----------------------------------
-
-##  High Level Requirements ##
+## 6. Requirements:
+##  6.1 High Level Requirements ##
 |ID| Description|
 | :-------: |----------------------------------------------------------------------------------------------------------------------------------|
 | HLR_1 | When blue switch is pressed once, turn on all LED at the same time and message is printed as locked.                                 |
@@ -84,7 +87,7 @@ The main function used to check the condition. The button pin is pulled up and t
 | HLR_4 | When blue switch is pressed for four times, turn on all LED in counter-clockwise manner and message is printed as approach light     |
 ---------------------------------
 
-## LOW LEVEL REQUIREMENTS:- ##
+## 6.2 LOW LEVEL REQUIREMENTS:- ##
 | HLR_ID |LLR_ID | Design_consideration | 
 | :-----: | :-----: | -------------------- | 
 | HLR_1 | LLR_1.1 | Controller checks for any change in the pin state connected to the button continuously |
