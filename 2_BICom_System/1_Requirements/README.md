@@ -1,3 +1,13 @@
+## Introduction
+
+  * Bi-com system ,is a system that's designed to remotely lock or unlock the automobiles, RKE operates by broadcasting radio waves on a selected frequency unidirectionally,RKE      systems implement encryption algorithms to stop car thieves from intercepting and spoofing the telegram.
+  * The term bi-com, is additionally called keyless entry or remote central locking, refers to a lock that uses an electronic remote as a key which is activated by a handheld       device or automatically by proximity.
+  * Widely employed in automobiles, an RKS performs the functions of a regular car key without physical contact. When within some yards of the car, pressing a button on the         remote can lock or unlock the doors, and should perform other functions.
+
+
+
+
+
 ## FEATURES #
 
 The project is all about programming the Biocom to impliment its below mentioned functions. The features implimneted differs or a part of the real time biocom system. 
