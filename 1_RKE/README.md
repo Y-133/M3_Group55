@@ -17,7 +17,7 @@ The Remote Keyless System refers to a lock that uses an electronic remote contro
 | README| This file describes the overview of the project, all the required components to know about the project and collabators cotribution. |
 
 ---------------------------------------------------------------------------------
-## Contributions done Project - 1 Remote Keyless Entry:
+## Contributions done in Project - 1 Remote Keyless Entry:
 <p align="center">
   <img width="1080 "height="400 " src="https://github.com/shri-vaishnavi/M3_Group55/blob/706c709c12e19cb95a9f56be9fa918674257ba74/1_RKE/Images/team3.jpg ">
 </p> <br>
