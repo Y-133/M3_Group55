@@ -6,7 +6,8 @@ Test cases for High level Requirements
 | 02 | All the LEDs should turn OFF at a time | press the button twice| All LEDs turned off at the same time | All LEDs turned off at the same time | ✅ |
 | 03 | All the LEDs should turn ON clockwise | press the button thirce| Turn ON all the LEDs clockwise | Turn ON all the LEDs clockwise|✅ |
 | 04 | All the LEDs should turn ON anti-clockwise | press the button thirce| Turn ON all the LEDs anti-clockwise | Turn ON all the LEDs clockwise| ✅ |
-
+-----------------------------------------------------------------------
+<br>
 Test cases for low  level requirements
 
 | Test ID | Description | Input | Expected output | Actual Output | Passed Or Not |
