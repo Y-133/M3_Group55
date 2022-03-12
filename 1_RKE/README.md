@@ -1,6 +1,22 @@
 # M3_Group55
 Module -3 Getting started with ARM Based Microcontroller
 ----------------------------------------------------
+Introduction: 
+Remote Key Entry is an electronic lock that controls access to a building or vehicle without using a conventional mechanical key. This project is all about implimentation of RKE system features. 
+
+-------------------------------------------------------------------
+## Folder structure ##
+| Folder | Description|
+| --- | --- |
+| 1_Requirements | Documents detailing requirements and research |
+| 2_Architecture | Documents specifying design details |
+| 3_Implementation | All code and documentation |
+| 4_Test_plan | Documents with test plans and procedures |
+| 5_Report | Document describing all about the project |
+| 6_Images | Contains the images used in the project |
+| README| This file describes the overview of the project and all the required components to know about the project.
+
+---------------------------------------------------------------------------------
 ## Contributions done Project - 1 Remote Keyless Entry:
 <p align="center">
   <img width="1080 "height="400 " src="https://github.com/shri-vaishnavi/M3_Group55/blob/706c709c12e19cb95a9f56be9fa918674257ba74/1_RKE/Images/team3.jpg ">
