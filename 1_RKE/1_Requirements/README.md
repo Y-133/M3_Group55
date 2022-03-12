@@ -9,16 +9,15 @@
 	  * HLR
   	* LLR
 
--------------------------------------------------------
-# Introduction
-Remote Key Entry is an electronic lock that controls access to a building or vehicle without using a conventional mechanical key. The term Remote Key entry system literally means controlled some functionality of car by a remote such as lock, unlock, alarm activation and approch light at or near the car, which requires entering a default (or self-programmed) numeric code. RKE transmission requires two components - a transmitter and a receiver. Transmitter - RKE key fob, other ID device with RKE integrated Receiver - Body Control ECU, other ECU with integrated RKE. RKE operates by broadcasting radio waves on a particular frequency unidirectionally. RKE systems implement encryption and rolling code algorithms to prevent car thieves from intercepting and spoofing the telegrams. 
-
-------------------------
+--------------------------
 <h1 align="center"> RKE </h1>
 <i><h3 align = "center"> Remote Keyless Entry</h3></i>
 <h3 align = "center"> Remote keyless entry (RKE) system is a system designed to remotely lock or unlock access to automobiles.  </h3>
 
-
+-------------------------------------------------------
+# Introduction
+Remote Key Entry is an electronic lock that controls access to a building or vehicle without using a conventional mechanical key. The term Remote Key entry system literally means controlled some functionality of car by a remote such as lock, unlock, alarm activation and approch light at or near the car, which requires entering a default (or self-programmed) numeric code. RKE transmission requires two components - a transmitter and a receiver. Transmitter - RKE key fob, other ID device with RKE integrated Receiver - Body Control ECU, other ECU with integrated RKE. RKE operates by broadcasting radio waves on a particular frequency unidirectionally. RKE systems implement encryption and rolling code algorithms to prevent car thieves from intercepting and spoofing the telegrams. 
+-------------------------------------------------------------------
 ## PRODUCT RESEARCH
 <p align="center">
   <img width="1080 "height="342 " src="https://github.com/shri-vaishnavi/M3_Group55/blob/main/1_RKE/Images/RSK.png ">
