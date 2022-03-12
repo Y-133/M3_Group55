@@ -22,7 +22,8 @@ The Remote Keyless System refers to a lock that uses an electronic remote contro
   <img width="1080 "height="400 " src="https://github.com/shri-vaishnavi/M3_Group55/blob/706c709c12e19cb95a9f56be9fa918674257ba74/1_RKE/Images/team3.jpg ">
 </p> <br>
 
-# Documentation:
+## Documentation contribution: ##
+
 | Name             |PS No     | Individual Task                                  | Collabarative task           | Collabarator     | Reviewed by                         |  
 | ---------------- | :------: | ------------------------------------------------ | ---------------------------- | ---------------- | ----------------------------------- |
 | Shrivaishnavi    | 99007457 |1. Features <br> 2. Problem solving approach      | Test cases                   | Manikanta Gurram | Yogesh S.V <br> Danesh Patted	     | 
@@ -30,8 +31,10 @@ The Remote Keyless System refers to a lock that uses an electronic remote contro
 | Danesh Patted	   | 99007458 |1. Introduction<br>2. Product research            | SWOT analysis                | Yogesh S.V       | Shrivaishnavi <br> Manikanta Gurram | 
 | Yogesh S.V       | 99007456 |1. HLR <br> 2. LLR                                | 4w1h <br> Materials required | Danesh Patted	   | Shrivaishnavi  <br> Manikanta Gurram|
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Software
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Software contribution: ##
+
 | Name             |PS No     |                Individual Task              |       Collabarator     | Reviewed by                       |  
 | ---------------- | :------: | ------------------------------------------- | ---------------------- | --------------------------------- | 
 | Shrivaishnavi    | 99007457 | All LED OFF                                 | Danesh Patted          | Manikanta Gurram <br> Yogesh S.V  |
@@ -40,7 +43,7 @@ The Remote Keyless System refers to a lock that uses an electronic remote contro
 | Yogesh S.V       | 99007456 |Turn on all led in anti-clockwise manner     | Shrivaishnavi          | Manikanta Gurram <br> Danesh      |
 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## How we assigned collabarators ? 
-   #### The collabaration was made sure that every person gets to work with different functionality/ documentation works. For e.g: So, Shrivaishnavi and Danesh Patted collabed for functionality '1' as Danesh Patted he volunteered to work on that functionality in project 2 (BiCom). Similarly everry other task was volunteered discussed and was assigned.  ####
+## How we assigned collabarators ?  ##
+  The collabaration was made sure that every person gets to work with different functionality/ documentation works. For e.g: So, Shrivaishnavi and Danesh Patted collabed for functionality '1' as Danesh Patted he volunteered to work on that functionality in project 2 (BiCom). Similarly everry other task was volunteered discussed and was assigned.  
