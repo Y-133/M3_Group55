@@ -1,12 +1,12 @@
 # M3_Group55
 Module -3 Getting started with ARM Based Microcontroller
 ----------------------------------------------------
-## Contributions done Project - 2 BiCom:
+## Contributions done Project - 2 BiCom: ##
+
 <p align="center">
-  <img width="800 "height="440 " src=" https://github.com/shri-vaishnavi/M3_Group55/blob/f80bca86671dae89d7d29bc114a4652b39e2d862/1_RKE/Images/team2.png ">
+  <img width="1080 "height="400 " src="https://github.com/shri-vaishnavi/M3_Group55/blob/706c709c12e19cb95a9f56be9fa918674257ba74/1_RKE/Images/team3.jpg ">
 </p>
-
-
+---------------------------------------------------
 # Documentation:
 | Name             |PS No     | Individual Task                                  | Collabarative task           | Collabarator     | Reviewed by                         |  
 | ---------------- | :------: | ------------------------------------------------ | ---------------------------- | ---------------- | ----------------------------------- |
