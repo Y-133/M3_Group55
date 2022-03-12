@@ -41,6 +41,9 @@ The project is all about programming the RKE to impliment its below mentioned fu
 | Blue switch pressed twice  | 1. All led off at the same time. <br> 2.  Print unlock.                        |
 | Blue switch pressed thrice |  1. All led on in clockwise manner <br> 2. Print alarm activation/deactivation |
 | Blue switch pressed for four times | 1. All led on in anti-clockwise manner <br> 2. Print approach light   |
+
+# PROBLEM SOLVING APPROACH
+The main function used to check the condition. The button pin is pulled up and the pin is monitored continuosly for change using the STM32F407 controller. When the switch press event is identified the countis incremented and coressponding function is done.
 	
 -------------------------------------------------------------------------------------------------------------------
 ##  4W's & 1H
