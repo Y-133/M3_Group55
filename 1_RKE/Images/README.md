@@ -1,2 +1,2 @@
-# Iamges folder
+# Images folder
 
