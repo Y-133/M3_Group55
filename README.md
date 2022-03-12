@@ -16,5 +16,5 @@ Module -3 Getting started with ARM Based Microcontroller
 | Folder name    | Description|
 | -------------- | -------------| 
 | 1_RKE          | This folder contains all the files of 1st project |
-| 2_BICom_System | This folder contains all the files of 2nd project |
+| 2_BiCom_System | This folder contains all the files of 2nd project |
 
