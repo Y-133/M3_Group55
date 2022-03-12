@@ -6,7 +6,7 @@
 4. SWOT analysis  
 5. Materials req (STM327407)
 6. Requirements:
-	* HHLR
+	* HLR
 	* LLR
 
 -------------------------------------------------------
