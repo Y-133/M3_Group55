@@ -2,6 +2,10 @@
 Module -3 Getting started with ARM Based Microcontroller
 ----------------------------------------------------
 ## Contributions done Project - 2 BiCom:
+<p align="center">
+  <img width="800 "height="440 " src=" https://github.com/shri-vaishnavi/M3_Group55/blob/f80bca86671dae89d7d29bc114a4652b39e2d862/1_RKE/Images/team2.png ">
+</p>
+
 
 # Documentation:
 | Name             |PS No     | Individual Task                                  | Collabarative task           | Collabarator     | Reviewed by                         |  
