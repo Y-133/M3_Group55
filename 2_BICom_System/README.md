@@ -1,8 +1,8 @@
 # M3_Group55
 Module -3 Getting started with ARM Based Microcontroller
 -----------------------------------------------------------------------------
-Introduction: 
-BiCom refers to a lock that uses an electronic remote control to access functions such as lock, unlock, alarm activation etc with feedback response from the receiver system. This project is all about implimentation of BiCom system features. 
+## Introduction:  ## 
+ #### BiCom refers to a lock that uses an electronic remote control to access functions such as lock, unlock, alarm activation etc with feedback response from the receiver system. This project is all about implimentation of BiCom system features.  ####
 ---------------------------------------------------------------
 ## Folder structure ##
 | Folder | Description|
