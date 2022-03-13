@@ -20,7 +20,8 @@ Module -3 Getting started with ARM Based Microcontroller
 #
 #
 ## Collabarators:
-1. Shrivaishnavi      (PS no: 99007457)
-2. Manikanta Gurram	  (PS no: 99007896 )
-3. Danesh Patted	    (PS no: 99007458)
-4. Y0gesh S.V         (PS no: 99007456)
+|--- | ----------------- | --------------- | 
+| 1. | Shrivaishnavi     | PS no: 99007457 |
+| 2. | Manikanta Gurram  | PS no: 99007896 |
+| 3. | Danesh Patted	   | PS no: 99007458 |
+| 4. | Yogesh S.V        | PS no: 99007456 |
