@@ -17,4 +17,10 @@ Module -3 Getting started with ARM Based Microcontroller
 | -------------- | -------------| 
 | 1_RKE          | This folder contains all the files of 1st project |
 | 2_BiCom_System | This folder contains all the files of 2nd project |
-
+#
+#
+## Collabarators:
+1. Shrivaishnavi      (PS no: 99007457)
+2. Manikanta Gurram	  (PS no: 99007896 )
+3. Danesh Patted	    (PS no: 99007458)
+4. Y0gesh S.V         (PS no: 99007456)
