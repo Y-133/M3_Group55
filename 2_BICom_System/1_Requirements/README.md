@@ -14,9 +14,10 @@
 <h3 align = "center"> BiCom System designed to remotely lock or unlock to access some features of.  </h3>
 
 ## 1. Introduction
-  * Bi-com system ,is a system that's designed to remotely lock or unlock the automobiles, RKE operates by broadcasting radio waves on a selected frequency unidirectionally,RKE      systems implement encryption algorithms to stop car thieves from intercepting and spoofing the telegram.
-  * The term bi-com, is additionally called keyless entry or remote central locking, refers to a lock that uses an electronic remote as a key which is activated by a handheld       device or automatically by proximity.
-  * Widely employed in automobiles, an RKS performs the functions of a regular car key without physical contact. When within some yards of the car, pressing a button on the         remote can lock or unlock the doors, and should perform other functions.
+* Bi-com system ,is a system that's designed to remotely lock or unlock the automobiles, RKE operates by broadcasting radio waves on a selected frequency unidirectionally,RKE systems implement encryption algorithms to stop car thieves from intercepting and spoofing the telegram.
+* The term bi-com, is additionally called keyless entry or remote central locking, refers to a lock that uses an electronic remote as a key which is activated by a handheld device or automatically by proximity.
+* Widely employed in automobiles, an RKS performs the functions of a regular car key without physical contact. When within some yards of the car, pressing a button on the remote can lock or unlock the doors, and should perform other functions.
+
   --------------------------------------
 
 ## 1.1. PRODUCT RESEARCH
@@ -24,18 +25,17 @@
   <img width="1080 "height="342 " src="https://github.com/shri-vaishnavi/M3_Group55/blob/main/1_RKE/Images/RSK.png ">
 </p>
 <br>
-<p align = "justify"> The Remote Keyless System refers to a lock that uses an electronic remote control to access functions such as lock, unlock, alarm activation etc. Keyless remotes contain a short-range radio transmitter, and works within a certain range of the car to work. Remote Keyless System has a transmitter and a receiver to communicate. Receiver is the Body Control ECU, another ECU with integrated RKE Transmitter in the target vehicle. RKE Transmitter is incorporated with RKE key fob and other ID device which works by sending radio waves in a single direction on a certain frequency.When a button is pushed, it sends a coded signal by radio waves to a receiver unit in the car, which performs the functions accordingly. The functions of a remote keyless entry system are contained on a key fob. The RKE systems use encryption and rolling code techniques to prevent intercepting of command signals from the key. The rolling code is a pseudo random number generator generated differently for each time. Here we have discussed RKE system implimented in the car.
-In this project we will use STM32F407 to emulate these functionalities. 
+<p align = "justify"> The Remote Keyless System refers to a lock that uses an electronic remote control to access functions such as lock, unlock, alarm activation etc. Keyless remotes contain a short-range radio transmitter, and works within a certain range of the car to work. Remote Keyless System has a transmitter and a receiver to communicate. Receiver is the Body Control ECU, another ECU with integrated RKE Transmitter in the target vehicle. RKE Transmitter is incorporated with RKE key fob and other ID device which works by sending radio waves in a single direction on a certain frequency.When a button is pushed, it sends a coded signal by radio waves to a receiver unit in the car, which performs the functions accordingly. The functions of a remote keyless entry system are contained on a key fob. The RKE systems use encryption and rolling code techniques to prevent intercepting of command signals from the key. The rolling code is a pseudo random number generator generated differently for each time. Here we have discussed the RKE system implemented in the car. In this project we will use STM32F407 to emulate these functionalities.
 </p>
 
 --------------------------------------
 ## 2.FEATURES
-The project is all about programming the Biocom to impliment its below mentioned functions. The features implimneted differs or a part of the real time biocom system. 
-1. Biocom transmission requires two components - a transmitter and a receiver. Communication takes place in bi-direction. 
+The project is all about programming the Biocom to implement its below mentioned functions. The features implemented differ or are a part of the real time biocom system.
+1. Biocom transmission requires two components - a transmitter and a receiver. Communication takes place in bi-direction.
 * Transmitter - The info transmitted to the keyfob,
-* Receiver - Body Control ECU, other ECU with integrated biocom system,send back to the keyfob to display the status.  
-2. The term bi-com, is also called keyless entry or remote central locking, refers to a lock that uses an electronic remote control as a key which is activated by a handheld         device or automatically by proximity.
-3. Widely used in automobiles, an RKS performs the functions of a standard car key without physical contact. When within a few yards of the car, pressing a button on the remote    can lock or unlock the doors, and may perform other functions.
+* Receiver - Body Control ECU, other ECU with integrated biocom system,send back to the keyfob to display the status.
+2. The term bi-com, also called keyless entry or remote central locking, refers to a lock that uses an electronic remote control as a key which is activated by a handheld device or automatically by proximity.
+3. Widely used in automobiles, an RKS performs the functions of a standard car key without physical contact. When within a few yards of the car, pressing a button on the remote can lock or unlock the doors, and may perform other functions.
 
 --------------------------------------
 
@@ -44,11 +44,11 @@ The project is all about programming the Biocom to impliment its below mentioned
 | Blue switch pressed once   |  1. All led on at the same time. <br> 2.  Print windows status.                 |
 | Blue switch pressed twice  | 1. All led off at the same time. <br> 2.  Print alram status.                   |
 | Blue switch pressed thrice |  1. All led on in clockwise manner <br> 2. Print car battery info status        |
-| Blue switch pressed for four times | 1. All led on in anti-clockwise manner <br> 2. Print Door status        |
+| Blue switch pressed for four times |  1. All led on in counter clockwise manner <br> 2. Print Door status        |
 
 --------------------------------------
 ### 2.1 PROBLEM SOLVING APPROACH
-The main function used to check the condition. The button pin is pulled up and the pin is monitored continuosly for change using the STM32F407 controller. When the switch press event is identified the countis incremented and coressponding function is done.
+The main function used to check the condition. The button pin is pulled up and the pin is monitored continuously for change using the STM32F407 controller. When the switch press event is identified the count is incremented and corresponding function is done.
 
 --------------------------------------
 
